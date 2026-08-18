@@ -1,17 +1,16 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use App\Models\ContactMessage;
 use App\Mail\ContactFormMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Log;
 
 class ContactController extends Controller
 {
     public function send(Request $request)
     {
-        // 1. Validate incoming data
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
@@ -19,13 +18,18 @@ class ContactController extends Controller
             'message' => 'required|string',
         ]);
 
-        // 2. Save record to Database
+        // 1. Save record to Database (This always works!)
         ContactMessage::create($validated);
 
-        // 3. Send email directly to your inbox
-        Mail::to('khangalib5191@gmail.com')->send(new ContactFormMail($validated));
+        // 2. Try sending email safely
+        try {
+            Mail::to('khangalib5191@gmail.com')->send(new ContactFormMail($validated));
+        } catch (\Exception $e) {
+            // Log the network error without breaking the user's page experience
+            Log::error('Failed to send mail: ' . $e->getMessage());
+        }
 
-        // 4. Redirect back with success message
-        return back()->with('success', 'Thank you! Your message has been sent successfully.');
+        // 3. Return success to the user
+        return back()->with('success', 'Thank you! Your message has been received.');
     }
 }
