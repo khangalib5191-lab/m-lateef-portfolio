@@ -68,7 +68,6 @@
                 <div class="col-lg-7 text-center text-lg-start">
                     <div
                         class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill glass-card mb-4 border-glow">
-                        <span class="status-dot"></span>
                     </div>
                     <h1 class="display-3 fw-extrabold mb-3 lh-sm tracking-tight text-white">
                         Engineering Sophisticated <span class="text-gradient">Digital Solutions</span>
