@@ -40,8 +40,6 @@
         <div class="container">
             <a class="navbar-brand fw-extrabold tracking-wide" href="#">
                 <span class="text-gradient">M. LATEEF</span>
-                <span
-                    class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill fs-8 ms-2 px-2 py-1">PRO</span>
             </a>
             <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav">
@@ -56,7 +54,7 @@
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
                 <div class="ms-lg-3 mt-3 mt-lg-0">
-                    <a href="#contact" class="btn btn-gradient-primary btn-sm rounded-pill px-4">Start Project</a>
+                    <a href="#contact" class="btn btn-gradient-primary btn-sm rounded-pill px-4">Get In Touch</a>
                 </div>
             </div>
         </div>
@@ -71,7 +69,6 @@
                     <div
                         class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill glass-card mb-4 border-glow">
                         <span class="status-dot"></span>
-                        <span class="fs-7 fw-medium text-light opacity-90">Open for Full-Stack & Mobile Roles</span>
                     </div>
                     <h1 class="display-3 fw-extrabold mb-3 lh-sm tracking-tight text-white">
                         Engineering Sophisticated <span class="text-gradient">Digital Solutions</span>
@@ -284,13 +281,12 @@
                         </div>
                         <div class="p-4 pt-0 mt-auto">
                             <div class="d-flex flex-wrap gap-2 mb-3 pt-3 border-top border-slate">
-                                <span class="tech-tag">Django</span>
+                                <span class="tech-tag">laravel</span>
                                 <span class="tech-tag">Bootstrap</span>
-                                <span class="tech-tag">Rest API</span>
+                                <span class="tech-tag">mysql</span>
                             </div>
-                            <a href="#contact"
-                                class="btn btn-outline-slate btn-sm rounded-pill w-100 fs-8 fw-semibold">Discuss Project
-                                Scope</a>
+                            <a href="https://enthtours.com/"
+                                class="btn btn-outline-slate btn-sm rounded-pill w-100 fs-8 fw-semibold">Explore Now</a>
                         </div>
                     </div>
                 </div>
@@ -311,13 +307,12 @@
                         </div>
                         <div class="p-4 pt-0 mt-auto">
                             <div class="d-flex flex-wrap gap-2 mb-3 pt-3 border-top border-slate">
-                                <span class="tech-tag">Laravel</span>
-                                <span class="tech-tag">MySQL</span>
-                                <span class="tech-tag">Databases</span>
+                                <span class="tech-tag">react js</span>
+                                <span class="tech-tag">javascript</span>
+                                <span class="tech-tag">postsql</span>
                             </div>
                             <a href="#contact"
-                                class="btn btn-outline-slate btn-sm rounded-pill w-100 fs-8 fw-semibold">Discuss Project
-                                Scope</a>
+                                class="btn btn-outline-slate btn-sm rounded-pill w-100 fs-8 fw-semibold">Explore in GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -338,13 +333,12 @@
                         </div>
                         <div class="p-4 pt-0 mt-auto">
                             <div class="d-flex flex-wrap gap-2 mb-3 pt-3 border-top border-slate">
-                                <span class="tech-tag">Flutter</span>
-                                <span class="tech-tag">Cross-Platform</span>
+                                <span class="tech-tag">react js</span>
+                                <span class="tech-tag">responsive application</span>
                                 <span class="tech-tag">PostgreSQL</span>
                             </div>
                             <a href="#contact"
-                                class="btn btn-outline-slate btn-sm rounded-pill w-100 fs-8 fw-semibold">Discuss Project
-                                Scope</a>
+                                class="btn btn-outline-slate btn-sm rounded-pill w-100 fs-8 fw-semibold">Explore in GitHub</a>
                         </div>
                     </div>
                 </div>
