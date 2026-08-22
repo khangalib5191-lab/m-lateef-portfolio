@@ -336,7 +336,7 @@
                                 <span class="tech-tag">responsive application</span>
                                 <span class="tech-tag">PostgreSQL</span>
                             </div>
-                            <a href="#contact"
+                            <a href="https://github.com/khangalib5191-lab/pharmacy-.git"
                                 class="btn btn-outline-slate btn-sm rounded-pill w-100 fs-8 fw-semibold">Explore in GitHub</a>
                         </div>
                     </div>
